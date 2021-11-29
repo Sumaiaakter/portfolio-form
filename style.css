@@ -227,15 +227,24 @@ font-size: 32px;
 }
 
 /* form submit */
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width: 500px; */
+    height: 100vh;
+}
+form{
+    width: 500px;
+}
 
 input,textarea{
-    display: flex;
+    display: block;
     text-align: center;
     align-items: center;
-    width: 80%;
     padding: 6px 2px;
     margin: 4px;
-    /* height: 100vh; */
+    width: 100%;
 }
 button{
     background-color: salmon;
@@ -243,7 +252,7 @@ button{
     align-items: center;
     padding: 6px 2px;
     margin: 4px;
-    width: 50%;
+    width: 100%;
     border-radius: 4px;
 
 }
